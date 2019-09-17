@@ -73,7 +73,7 @@ class Conexao{
   }
 
   public function desconectar(){
-    mysqli_close($this -> lnk);
+    mysqli_close($this->lnk);
   }
 
   public function is_conected(){
